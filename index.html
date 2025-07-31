@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KIM Simulated Experience</title>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/kim.css">
+    <script>
+        document.documentElement.style.setProperty("--dpr", window.devicePixelRatio + 'px');
+        const DOMContentLoaded = new Promise((resolve) => {
+            window.addEventListener("DOMContentLoaded", () => resolve());
+        });
+    </script>
+    <script type="module" src="static/modules/init.js"></script>
+</head>
+
+<body data-active="config">
+    <nav>
+        <button id="gotoConfig" onclick="focusConfig()" disabled>
+            Config Pane
+        </button>
+        <button id="gotoChat" onclick="focusChat()">
+            Chat Pane
+        </button>
+    </nav>
+    <main>
+        <div class="window active" id="config">
+            <div class="titlebar">
+                <div class="title">
+                    Welcome to KIM!
+                </div>
+                <div>
+                    <button class="close" role="none" aria-hidden="true">&times;</button>
+                </div>
+            </div>
+            <div class="content">
+                <label>
+                    Username:
+                    <input id="username" type="text" maxlength="30" size="15" value="Drifter" />
+                </label>
+                <label>
+                    Dating:
+                    <select id="dating">
+                        <option>None</option>
+                        <option>Aoi</option>
+                        <option>Amir</option>
+                        <option>Arthur</option>
+                        <option>Eleanor</option>
+                        <option>Lettie</option>
+                        <option>Quincy</option>
+                    </select>
+                </label>
+                <fieldset>
+                    <legend>Flags</legend>
+                    <label>
+                        <input type="checkbox" name="flags" value="DrifterInBackroom" />
+                        <span>Drifter is in the backroom</span>
+                        <br>
+                        <span>(as opposed to the orbiter)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="flags" value="Sexy" checked />
+                        Risqué is OK
+                    </label>
+                </fieldset>
+                <audio id="audioPlayer" preload="auto">
+                <source src="./static/sounds/select.wav" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+                <div class="users">
+                <button class="amog" onclick="play()" value="Aoi">
+                <img src="./static/images/pfp/glimmer.JPG" width="64px"><span class="userpf">xX GLIMMER Xx<br><span>Offline</span></span>
+                </button>
+                <button class="amog" onclick="play()" value="Amir">
+                <img src="./static/images/pfp/highvoltage.JPG" width="64px"><span class="userpf">H16h V0l7463<br><span>Online</span></span>
+                </button>
+                <button class="amog" onclick="play()" value="Arthur">
+                <img src="./static/images/pfp/broadsword.JPG" width="64px"><span class="userpf">Broadsword<br><span>Online</span></span>
+                </button>
+                <button class="amog" onclick="play();" value="Eleanor">
+                <img src="./static/images/pfp/eleanorpfp.png" width="64px"><span class="userpf">Salem<br><span>Online</span></span>
+                </button>
+                <button class="amog" onclick="play()" value="Lettie">
+                <img src="./static/images/pfp/belladona.JPG" width="64px"><span class="userpf">Belladonna ~{@<br><span>Offline</span></span>
+                </button>
+                <button class="amog" onclick="play()" value="Quincy">
+                <img src="./static/images/pfp/solda.JPG" width="64px"><span class="userpf">Soldja1Shot1kil<br><span>Offline</span></span>
+                </button>
+                <button class="amog" onclick="play()" value="Quincy">
+                <img src="./static/images/pfp/Liminus.JPG" width="64px"><span class="userpf">Liminus_Star<br><span>Offline</span></span>
+                </button>
+                </div>
+                <label>
+                    Topic:
+                    <select id="topic">
+                        <option data-whose="Arthur" disabled>Kalymos</option>
+                        <option data-whose="Arthur" disabled>Kalymos</option>
+                        <option data-whose="Arthur" disabled>Kalymos2</option>
+                        <option data-whose="Arthur" disabled>Komi</option>
+                        <option data-whose="Arthur" disabled>Dinner [WIP]</option>
+                        <option data-whose="Arthur" disabled>Oil</option>
+                        <option data-whose="Amir" disabled>Internet</option>
+                        <option data-whose="Eleanor" disabled>Light</option>
+                        <option data-whose="Eleanor" disabled>Viktor</option>
+                    </select>
+                </label>
+                <label>
+                    <input type="checkbox" id="system" checked />
+                    Show system messages
+                </label>
+                <label>
+                    <input type="checkbox" id="delay" checked />
+                    Simulate chat delay
+                </label>
+                <label>
+                    <input type="checkbox" id="nosave" />
+                    <span>Don't save flag updates</span>
+                    <br>
+                    <span>made by conversation scripts</span>
+                </label>
+                <label>
+                    Oversized dialogue choices:
+                    <select id="optrender">
+                        <option>Truncate</option>
+                        <option>Animate</option>
+                        <option>Wrap</option>
+                    </select>
+                </label>
+                <button id="start">Start conversation</button>
+                <button id="reload" onclick="location.reload()">Reload</button>
+                <button id="clear" onclick="localStorage.clear();location.reload()">Reset Flags/Config</button>
+            </div>
+        </div>
+        <div class="window" id="chat">
+            <div class="titlebar">
+                <div class="title" id="chattitle">&larr; Choose some options!</div>
+                <div><button class="close" role="none" aria-hidden="true">&times;</button>
+                </div>
+            </div>
+            <div class="content">
+                <div id="messages">
+                    <div id="chatlog" aria-label="Chat log" role="log"></div>
+                    <div id="status"></div>
+                </div>
+                <div id="options">
+                    <button disabled><span></span></button>
+                    <button disabled><span></span></button>
+                    <button disabled><span></span></button>
+                    <button disabled><span></span></button>
+                </div>
+            </div>
+        </div>
+    </main>
+        <audio controls loop>
+    <source src="./static/sounds/audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <div id="divtest"></div>
+    <audio class="hovers" preload="auto">
+                <source src="./static/sounds/hoversounds/NinetyNineMessengerHoverA.wav" type="audio/wav">
+                Your browser does not support the audio element.
+    </audio>
+     <audio class="hovers" preload="auto">
+                <source src="./static/sounds/hoversounds/NinetyNineMessengerHoverB.wav" type="audio/wav">
+                Your browser does not support the audio element.
+    </audio>
+     <audio class="hovers" preload="auto">
+                <source src="./static/sounds/hoversounds/NinetyNineMessengerHoverC.wav" type="audio/wav">
+                Your browser does not support the audio element.
+    </audio>
+     <audio class="hovers" preload="auto">
+                <source src="./static/sounds/hoversounds/NinetyNineMessengerHoverD.wav" type="audio/wav">
+                Your browser does not support the audio element.
+    </audio>
+     <audio class="hovers" preload="auto">
+                <source src="./static/sounds/hoversounds/NinetyNineMessengerHoverE.wav" type="audio/wav">
+                Your browser does not support the audio element.
+    </audio>
+     <audio class="hovers" preload="auto">
+                <source src="./static/sounds/hoversounds/NinetyNineMessengerHoverF.wav" type="audio/wav">
+                Your browser does not support the audio element.
+    </audio>
+    <script type="text/javascript" src="static/modules/seperateadded.js"></script>
+</body>
+
+</html>

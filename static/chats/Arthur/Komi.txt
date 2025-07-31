@@ -1,0 +1,253 @@
+#1
+
+Why didn't I know that you play komi?
+
+Drifter: [
+I guess it never came up. >5
+I don't actually like it. >3
+I wish I wasn't so bad at it. >2
+]
+
+#3
+
+Got it.
+Forget I brought it up, then. >E
+
+#2
+
+I might be able to help with that. >5
+
+#5
+
+Would you be willing to play a round or two?
+I'm sure I can scrounge up a board.
+
+Drifter: [
+Sure, I'm in. >6
+I guess? >7
+I'm up for it, but it'll be my first time playing against an actual person. >8
+Not really interested, sorry. >3
+]
+
+#7
+
+It's all right if you aren't interested.
+
+Drifter: [
+No, I'm interested. >6
+It's just that I've never played against a person. >8
+Yeah, I'll pass. Sorry. >3
+]
+
+#6
+
+All right. >11
+
+#8
+
+I'm going to assume Duviri was involved in that.
+
+Drifter: [
+Yeah. Duviri. >9
+Yeah, but... the other komi player in Duviri isn't *human*. >32
+]
+
+#32
+
+Drifter: [
+She's a rablit. >12
+She's a rodent. >10
+]
+
+#9
+
+Well, I'll gladly be the first "real" person you play against. >11
+
+#10
+
+A rodent? Like one of Lettie's rats?
+
+Drifter: [
+Yeah, kind of. She's a "rablit." >12
+Bigger than Lettie's rats. >13
+]
+
+#12
+
+Duviri has rabbits?
+
+Drifter: [
+Rablits. With an L. >33
+What's a rabbit? >33
+Is that a typo? >33
+]
+
+#33
+
+Long ears? Hop around as much as they walk?
+
+Drifter: [
+Antlers? >34
+Razor-sharp claws? >34
+I can pretty much *guarantee* that rablits are weirder than whatever you're thinking of. >15
+]
+
+#34
+
+&ArthurKomiRabbit=TRUE
+
+... >14
+
+#15
+
+Drifter: [
+They look like a gigantic rat skeleton hatched inside a boiled playground ball. >18
+Your "holiday dinner" is the one where you shave a bird and cook it with the skeleton still inside, right? >37
+Imagine, um... Viktor, I guess? Imagine he got into art instead of... complaining. >38
+]
+
+#37
+
+Drifter: Imagine one of those. Except the leftovers get up and kind of... hop around. >16
+
+#38
+
+Drifter: Say he finds a rat skeleton, coats it with ferrocite, and adds horns. >39
+
+#39
+
+Drifter: And then a meat-blob of techrot drops from the ceiling, lands on its back, and kind of... grabs the bones. >40
+
+#40
+
+Drifter: Some floppy flesh-ears grow on its head. Now it's "alive." >17
+
+#18
+
+&ArthurKomiRabbit=TRUE
+
+Drifter: Oh, but Teshin's rablit — the one I play komi with — she's blue. And she found... or grew... a face. Somehow. >14
+
+#16
+
+&ArthurKomiRoast=TRUE
+
+Drifter: ...You still there? >35
+
+#35
+
+Yes. Sol help me, that is the hardest I've laughed all week.
+First things first: we don't "shave" the bird.
+&ArthurDating Although it's adorable that you thought that's the way it worked.
+
+Drifter: [
+Yeah, yeah. Laugh it up. >26
+I've seen pictures. I *know* the feathers come off. &ArthurDating>27:28
+In my defense, birds in Duviri don't have skin. >29
+]
+
+#27
+
+They're plucked, sweets, not shaved. >29
+
+#28
+
+They're plucked, mate, not shaved. >29
+
+#29
+
+Next time I see a feather laying around, I'll pick it up for you. You'll get it then.
+But — shaved or not — >31
+
+#26
+
+Trust me. I am. >31
+
+#31
+
+Half-eaten roast stands up and walks out in the middle of dessert?
+Sol. I can imagine the looks on my parents' faces. And the quiet. &ArthurParents>30:42
+
+#42
+
+Pair it with a bottle and I might actually *enjoy* bloody Solstice.
+
+Drifter: [
+You don't really talk about your parents. >20
+Solstice was that bad? >21
+]
+
+#30
+
+I'll let you know when I find a komi set, all right?
+Hopefully I play the game a bit better than the Solstice roast. >E
+
+#20
+
+We don't have much of a relationship. Pleasantries only. >22
+
+#21
+
+Put it this way.
+If I had to choose between fighting techrot at Solstice or spending it with my parents, I'd choose the techrot.
+And it isn't close. >22
+
+#22
+
+Drifter: I didn't know you were on such bad terms. >41
+
+#41
+
+We aren't.
+That's what makes it all such a sodding headache. &ArthurDating>23:24
+
+#23
+
+Look, love. I'm not dodging. Promise. >25
+
+#24
+
+Look, mate. No offense. >25
+
+#25
+
+&ArthurParents=TRUE
+
+But I'd really rather talk about this another time.
+I'll let you know when I've found a komi set, all right? >E
+
+#17
+
+&ArthurKomiViktor=TRUE
+
+Bloody hell.
+I have absolutely no idea how Viktor, of all people, plays in, but...
+You've given me a surprisingly *decent* mental image.
+Although I can't say I'd ever be able to explain it to anyone else.
+At any rate, here's hoping I play a better game of komi than... that. >11
+
+#13
+
+&ArthurKomiRodent=TRUE
+
+I can't believe I'm asking this...
+Was the rodent any good at it?
+
+Drifter: [
+No. >14
+Better than me. >14
+]
+
+#14
+
+Without fail, whenever I begin to think I've understood Duviri...
+
+Drifter: You should really give up on that. >36
+
+#36
+
+Curse my optimism, I suppose. >11
+
+#11
+
+I'll let you know when I've found a set. >E

@@ -1,0 +1,251 @@
+#1
+
+I'd never thought much about the lights until recently.
+
+Drifter: [
+What lights? >2
+]
+
+#2
+
+All of them. Streetlights, searchlights, myriad ceiling lights and sconces and lamps in every little home.
+And then a Scaldra APC smashes itself into a substation and a chunk of the city goes dark.
+
+Drifter: [
+Is that hypothetical? >4
+Does that happen a lot? >3
+]
+
+#4
+
+I'm sure they've done it at least once, but in this case, yes. >5
+
+#3
+
+Gods, no. But part of me wishes it did.
+Can you imagine? >5
+
+#5
+
+I can't remember the last time I saw a truly starry sky, and it's all those lights doing it.
+
+Drifter: [
+And the fires... >6
+I didn't even think about it. >8
+At least there's Transference, I guess? >33
+]
+
+#6
+
+Oh, shush. Let me be salty about light pollution without reminding me of little inconveniences like "air quality" and "weather."
+
+Drifter: [
+Clouds ruin it, too. >7
+Sorry. I see the stars all the time, so I didn't think about what it might mean to you. >8
+]
+
+#7
+
+Much like you ruin wistful moods. >E
+
+#8
+
+That's because you're privileged. Almost insufferably so.
+Not only do you see the stars, you see them how they're meant to be seen.
+No meddlesome skyglow. No murky particulate. Not even an atmosphere.
+Only your eyes and a pane of layered glass. Or whatever material your windows are made of.
+
+Drifter: [
+There's always Transference. I can bring you up there, whenever you want to look. >32
+]
+
+#33
+
+Not quite what I'm after, I'm afraid. I do appreciate your kindness. Truly. >9
+
+#32
+
+Thank you. I do appreciate the offer. Truly. >9
+
+#9
+
+But when you're "driving" me, I can't choose where to look. I can't let my eyes wander on their own to whichever unfathomably distant candle catches their fancy.
+I suppose I enjoy stargazing the same way most people like to watch fireflies. Your attention naturally shifts as they float about.
+Stars are much less stressful. They don't need to worry about little trifles like eating and breeding and staying out of the rain. Stars are effortless.
+
+Drifter: [
+    Fireflies are bugs? >13
+    Sounds like you want to look at the stars alone. >14
+    The stars you can see from the roof aren't good enough? >34
+]
+
+#34
+
+Have you been up there?
+&ArthurDating I suppose you must have been.
+No, they aren't. They're little muddied pinpricks. No colour. Unidentifiable constellations.
+If ancient humans tried to navigate by what they saw up there, they'd have found another bloody way to do it. >17
+
+#13
+
+Oh no, Drifter, you really are missing out. I'll find a video for you.
+I won't watch it with you, though. Best done by your lonesome, at least the first time.
+That's the other rub with Transference, by the way. You're always there. &EleanorDating>16:15
+
+#14
+
+Yes. Exactly. &EleanorDating>16:15
+
+#15
+
+Not that I don't like you, of course. I adore you. It's only that there's something precious in being alone that Transference doesn't allow me to experience. >17
+
+#16
+
+Not that I don't like you, of course. I love you. But there's no one on this planet I could spend every waking moment with and not go at least a little bit mad. >17
+
+#17
+
+Drifter: [
+    So what's the answer? >10
+]
+
+#10
+
+To what?
+
+Drifter: You getting to stargaze. >11
+
+#11
+
+There isn't one.
+
+Drifter: Nothing? Like, at all? >12
+
+#12
+
+Nothing at all.
+Not all problems are solvable, Drifter. The world doesn't work that way.
+
+Drifter: [
+    You're forgetting the time loop. >18
+    I don't know *how* the world works at this point. Do you? >19
+]
+
+#19
+
+No one ever does. Some people think they do, but they're generally naive or delusional.
+That doesn't mean we can't notice patterns, work out the meaning of one little cog here and there. >20
+
+#18
+
+I don't think I am, actually. Some problems aren't solvable, even in a time loop. >20
+
+#20
+
+That's not to say I'd ignore a solution if you found one.
+It also doesn't mean I'll stop looking.
+But, for the moment, no. It isn't solvable, much as I would love for it to be.
+
+Drifter: [
+    You could leave the city. >21
+    Make a spaceship? >22
+    Shut off all the lights? >23
+]
+
+#23
+
+Are we brainstorming now? Far be it from me to argue, I suppose.
+I'll forgive you for not having an inherent familiarity with the technology here, but there are things reliant on electricity far beyond the average lightbulb.
+Medical equipment, for example.
+Before you say it, yes, I know everyone will reset. That doesn't mean I could forgive myself if I killed vulnerable people for my own selfish desires.
+
+Drifter: [
+    So we go for the lightbulbs. >28
+    So we convince people to turn the lights off voluntarily. >29
+]
+
+#28
+
+The lightbulbs? I can't imagine how you think these things work, but you can't blow out the bulbs and do no damage to the rest of it.
+Even if we got all the streetlamps and spotlights, we're not home invaders.
+We might get the residents to turn off the lights on their own, though. >35
+
+#29
+
+That... isn't quite as far-fetched an idea as I'd expected. >35
+
+#35
+
+It could be framed as necessity — the preservation of a limited resource. A staged collaborative effort, seeking outside aid and investment.
+Or just a trashy public holiday, where drunk people stumble around, shut off all their lights at once, and go to bed early.
+Somehow, tricking people doesn't sour me as badly as getting them killed.
+The cherry on top is the feeling that I'd be turning my journalistic prowess in rebellion against my younger self.
+I don't know how realistic it is, but I like this one. >36
+
+#22
+
+Are we brainstorming now? Far be it from me to argue, I suppose.
+I doubt we have the materials. I know for certain that we don't have the knowledge.
+If we screw it up, and something breaks up in the atmosphere, will it spread techrot far and wide?
+Before you say it, yes, I know everyone will reset. That doesn't mean I could forgive myself if I did infect them all through carelessness.
+
+Drifter: [
+    So we find a way to stop it from spreading. >24
+    So we make sure we don't screw it up. >27
+]
+
+#27
+
+You're a beautiful optimist, Drifter, and I admire that about you.
+How, pray tell, would we find the expertise to build a rocket?
+Moreover, how would we build it in under a year?
+
+Drifter: [
+    We can find an expert. On the internet, maybe? >25
+    We can learn. It's eternity, right? >30
+]
+
+#30
+
+"Do you know how long that would take?!" I'd like to yell, incredulously.
+But the eternal loop of a single year doesn't leave much room to complain, does it? >26
+
+#21
+
+Are we brainstorming now? Far be it from me to argue, I suppose.
+I can't leave. The Hex and transformation aside, I would infect thousands of innocent people if I broke quarantine.
+Before you say it, yes, I know they'll reset. That doesn't mean I could forgive myself if I did it deliberately.
+
+Drifter: So we find a way to stop it from spreading. >24
+
+#24
+
+Do you have an immunologist in your back pocket? An expert in techrot? No?
+
+Drifter: [
+    No. But we can find one. >25
+    We don't need that. One of us can learn. >30
+]
+
+#25
+
+And what if we do? That person will forget again with new year, same as everyone else.
+Though I suppose we'd know how to find them at that point. Their notes and things would be reset too, I suppose.
+Possible epiphany — and please let me down easy if it isn't —
+Those belongings of yours that come and go with you, they aren't subject to all this "resetting," are they?
+Hmm. >26
+
+#26
+
+Drifter: Can we at least say it's worth thinking about? >31
+
+#36
+
+Drifter: So we can agree it's worth thinking about? >31
+
+#31
+
+Yes.
+I might — and I emphasize "might" — be a little hopeful about meditating under the unfiltered stars someday.
+Long term goals, Eleanor. Long term goals. >E

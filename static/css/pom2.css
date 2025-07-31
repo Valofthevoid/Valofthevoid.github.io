@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+#divtest {
+  position: absolute; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+    top: 0;
+      left: 0;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  z-index:1;
+    pointer-events: none;
+  --dot-bg: rgb(0, 0, 0);
+  --dot-color: rgb(255, 255, 255);
+  --dot-size: 2px;
+  --dot-space: 4px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+   opacity:0.06;
+}
+:root {
+    --ndpr: calc(-1 * var(--dpr));
+
+    --pom2-white: #EEEEEE;
+    --pom2-offwhite: #DDDDDD;
+    --pom2-lightgray: #CCCCCC;
+    --pom2-gray: #777777;
+    --pom2-darkgray: #555555;
+    --pom2-green: #80A090;
+    --pom2-darkgreen: #709080;
+    --pom2-red: #FF3550;
+    --pom2-blue: #3550FF;
+    --pom2-black: #000000;
+    --pom2-gold: #A06500;
+    --pom2-lightorange: #D0A040;
+    --pom2-orange: #B08020;
+    --pom2-darkorange: #754500;
+
+    --pom2-window-border-radius: 0.5rem;
+    --pom2-font-size: 1.25rem;
+    --pom2-smaller-font-size: 1rem;
+
+    --pom2-window-margin: 0.5rem;
+    --pom2-content-padding: calc(2 * var(--dpr));
+    --pom2-border-width: calc(2 * var(--dpr));
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: inherit;
+    font-weight: normal;
+    font-family: "Roboto Condensed", system-ui, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+
+.amog {
+    text-align: left;
+    background: #c8c8c8;
+    border: none;
+    display:block;
+    width:100%;
+    line-height:0;
+    padding:3px;
+    margin-bottom:8px;
+}
+.amog:hover {
+    background: rgba(239, 198, 61, 0.56);
+}
+.amog > span {
+    display:inline-block;
+}
+.amog > img {
+    image-rendering: pixelated;
+    border-right: 2px solid grey;
+}
+html {
+    font-size: 18px;
+}
+
+body {
+    z-index: 0;
+    background-color: var(--pom2-blue);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+input,
+select {
+    padding: 0 var(--pom2-content-padding);
+}
+
+input:read-only,
+select:disabled,
+label:has(input:disabled) {
+    color: var(--pom2-gray);
+}
+
+fieldset label {
+    margin-left: 1rem;
+    display: block;
+}
+
+button {
+    background-color: transparent;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    z-index: -1;
+    box-shadow: inset 5px 5px 5rem rgba(0, 0, 0, 0.5), inset -5px -5px 5rem rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.window {
+    margin: var(--pom2-window-margin);
+    border: var(--pom2-border-width) solid var(--pom2-darkgray);
+    color: var(--pom2-black);
+    background-color: var(--pom2-offwhite);
+    border-top-left-radius: var(--pom2-window-border-radius);
+    border-top-right-radius: var(--pom2-window-border-radius);
+    min-height: calc(100vh - 2 * var(--pom2-window-margin));
+    overflow: hidden;
+}
+
+.titlebar {
+    color: var(--pom2-white);
+    letter-spacing: calc(var(--dpr) / 2);
+    text-shadow: -1px -1px 0 var(--pom2-gray),
+        1px 1px 0 var(--pom2-black),
+        1px 1px 2px var(--pom2-gray);
+    font-size: var(--pom2-smaller-font-size);
+    background-color: var(--pom2-green);
+    border-bottom: var(--pom2-border-width) solid var(--pom2-darkgray);
+    padding: var(--pom2-content-padding);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    .title::before {
+        content: "\1F4AC";
+        display: inline-block;
+    }
+}
+
+.title {
+    font-family: "Roboto Condensed";
+}
+var(--pom2-content-padding);
+.content {
+    padding: 10px;
+}
+.userpf {
+    margin-left:4px;
+    vertical-align:top;
+}
+span {
+    line-height:1;
+}
+.close {
+    aspect-ratio: 1;
+    vertical-align: text-bottom;
+    background-color: var(--pom2-orange);
+    box-shadow: inset var(--ndpr) var(--ndpr) 0 var(--pom2-darkorange),
+        inset var(--dpr) var(--dpr) 0 var(--pom2-lightorange);
+    border: 1px solid var(--pom2-black);
+    border-radius: var(--pom2-border-width);
+    width: 1rem;
+    line-height: 0px;
+}
+.users {
+    border: 4px inset #d3d3d3;
+    border-right: 4px inset #9f9f9f;
+    padding: 5px;
+    overflow-y: scroll;
+    height: 500px;
+}

@@ -1,0 +1,171 @@
+#1
+
+We're running low on gun oil.
+Amir's set to pilfer it from Viktor's crew in the next few days.
+I've left some motor oil with the cleaning supplies to tide us over.
+Use it only if you have to.
+
+Drifter: [
+I'm reading that as "Use more space lasers today, Drifter." &ArthurDating>2:3
+Motor oil? Is that safe? >5
+I have my own supply. >19
+Got it, thanks. >E
+]
+
+#2
+
+I would've used a term of endearment, sweets, but that's close enough. >33
+
+#3
+
+Heh. Exactly right.
+If you want targets for those "space lasers," grab something off the board.
+There's a miserable backlog. >E
+
+#19
+
+Are you offering?
+
+Drifter: [
+    Yeah, of course. &ArthurDating>20:21
+    LOL. >23
+]
+
+#23
+
+Should've known. >E
+
+#20
+
+I could kiss you right now. >22
+
+#21
+
+You're spoiling us, mate. >22
+
+#22
+
+Drop it by when you can. I'll let the others know. >E
+
+#4
+
+Right. This is what I get for trying to be nice.
+I'll leave you off next time. >E
+
+#5
+
+Not exactly "manufacturer recommended," but it does well enough in a pinch.
+
+Drifter: [
+    I can't imagine what situation made you even think of trying that. >18
+    Good info. Thanks. >E
+]
+
+#18
+
+Not my idea. Picked it up from a commander my first year in.
+Might've been the only *useful* thing he ever tried to teach us.
+
+Drifter: He had a lot of not-useful info? >6
+
+#6
+
+He was an encyclopaedia of stupid trivia. King of his hometown pub quiz, he said.
+Cruel. Full of himself. Never once took blame if he could shunt it off to someone else.
+
+Drifter: [
+    So, the opposite of you. &ArthurDating>7:13
+    Bet you hated his guts. >25
+]
+
+#25
+
+For the most part.
+He was everything I didn't want to be.
+
+Drifter: [
+Based on how you're describing the guy? I'd say you won that one. &ArthurDating>7:13
+&!ArthurSelfCritic You're too self-critical to ever be full of it. &ArthurDating>10:14
+At least you don't have to deal with him anymore. >17
+]
+
+#7
+
+You always see the best in me. &ArthurSelfCritic>33:30
+
+#30
+
+Drifter: You don't, so I have to. >8
+
+#8
+
+There's... a lot I could say to that. >16
+
+#9
+
+Grab a bounty off the board if you need to take it out on something. >E
+
+#10
+
+Drifter: And I mean that in the most affectionate way possible. >11
+
+#11
+
+I'd argue that, but it'll have to be some other time. >12
+
+#12
+
+&ArthurSelfCritic=TRUE
+
+Today being the minor shitshow that it is.
+
+Drifter: [
+That's fine, I get it. We'll talk later. &ArthurDating>31:27
+Sounds like an excuse. >9
+]
+
+#31
+
+Thanks, love. And, one more thing, before I'm back to work —
+No matter how long today's "shitshow" drags on, I won't miss our dinner date.
+Viktor will have to do a lot worse to deny me *that.* >E
+
+#33
+
+One more thing, before I'm back to work — we're up to our ears in it, today.
+...To the point that the duty rota's more of a "suggestion" than a proper schedule...
+&Sexy I might need a rain check on our... extracurriculars.
+But I won't miss our dinner date. >E
+
+#24
+
+I'll be getting back to work. Sodding shitshow today, courtesy of our friend Viktor. >27
+
+#27
+
+If you're free, grab something off the board.
+There's a miserable backlog. >E
+
+#13
+
+I'd like to think so. Bloody low bar for me to clear, though. >24
+
+#14
+
+Drifter: [
+    And I'm not trying to insult you. It's just true. >11
+    Seriously. You need to chill out sometimes. >15
+]
+
+#15
+
+Well, this sounds like an old powderkeg.
+Look, mate. I've no issue digging in on that. >16
+
+#16
+
+But I'll have to defer. >12
+
+#17
+
+Hah. Very true. &ArthurDating>33:24

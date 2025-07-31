@@ -1,0 +1,152 @@
+#1
+
+&DrifterInBackroom>25:22
+
+#25
+
+Drifter: Have you seen Kalymos? >2
+
+#22
+
+Drifter: I couldn't find Kalymos before I left. Have you seen her? >2
+
+#2
+
+Not recently.
+I assume she's set out to skulk around someplace.
+If she jumps on my face while I'm asleep again, I swear to Sol…
+
+&ArthurDating>23:24
+
+#23
+
+Drifter: [
+    Aw, come on. You like that she pays attention to you. >4
+    &Sexy I mean, I got to kiss it better, so... >10
+    &Sexy She was pretty playful after that, though. I think she just likes you. >3
+    &!Sexy It's probably because she likes you. >3
+    Here's a fun thought: maybe she did the same thing to Albrecht. >9
+]
+
+#24
+
+Drifter: [
+    On your face? Ouch. >8
+    You can't see it, but I am *laughing.* >7
+    It's probably because she likes you. >3
+    Here's a fun thought: maybe she did the same thing to Albrecht. >9
+]
+
+#10
+
+Well...
+You don't need an excuse for that. &!DrifterInBackroom>5
+
+Drifter: [
+    It's not really an "excuse" when it's something I'm gonna do anyway... >5
+    What can I say? I like variety. >5
+    Sure, I know. Wanna come help me with something real quick? >11
+]
+
+#11
+
+I hope you're not about to ask me to help find the bloody cat.
+
+Drifter: [
+    ...No. Not the cat. >12
+    Can you blame me for trying? >5
+]
+
+#12
+
+All right... What do you need help with?
+
+Drifter: [
+    ... >13
+    Things. The kind of things I'm making up excuses for. Right now. >13
+]
+
+#13
+
+Oh.
+Right.
+Love, I'm on duty.
+
+Drifter: [
+    Well, I tried. >14
+    A half hour break won't make the mall explode. >15
+    I'm just asking for a one-on-one morale boost. >16
+    Please? >17
+]
+
+#15
+
+I know it wouldn't.
+
+Drifter: So how's it different from a really long bathroom break? >20
+
+#16
+
+Hah. I like that, actually.
+
+Drifter: So let's use it. >20
+
+#17
+
+Sorry.
+But it's flattering to know you couldn't resist. >18
+
+#20
+
+Sol, you're persistent.
+And... impossible to turn down.
+I'll be over in a minute. >E
+
+#14
+
+It's flattering to know you couldn't resist. >18
+
+#18
+
+And, this evening... we can take our time.
+I don't think you need to worry about Kalymos, by the way.
+Sounds like Lettie's shooing her out from upstairs. >E
+
+#8
+
+I'm all right. Not even a bruise.
+Which makes me think it was deliberate aim, on her part. >5
+
+#9
+
+I sodding hope so. >5
+
+#7
+
+Thanks for the support, mate. >5
+
+#3
+
+I doubt that. >5
+
+#4
+
+She could pick a better bloody way to do it. >5
+
+#5
+
+Oh for the love of —
+
+Drifter: [
+    What's up? &DrifterInBackroom>6:26
+]
+
+#6
+
+You wanted to know where Kalymos was, right?
+Best get out here. I think she's in the ceiling. >E
+
+#26
+
+Kalymos.
+She's in the bloody ceiling. >E

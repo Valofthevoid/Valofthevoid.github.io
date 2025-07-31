@@ -1,0 +1,71 @@
+#1
+
+We have a situation.
+
+Drifter: [
+Uh oh. >10
+What kind? >10
+]
+
+#10
+
+Kalymos was... visiting, I think. With Helminth. &ArthurDating>2:12
+
+#12
+
+And she's brought something out with her — it looks like a lump of flesh. >3
+
+#2
+
+And now she's playing keepaway with what looks like a lump of flesh. >3
+
+#3
+
+I can't get it away from her. She's doing that bloody void thing, and she's never listened to a word I say. &ArthurDating>4:11
+
+#11
+
+Eleanor's refusing to help. "Too funny," far as she's concerned.
+But — Kalymos also likes *you*.
+So, Drifter. >5
+
+#4
+
+But she likes *you*.
+So, Drifter.
+Sweets.
+Love of my life. >5
+
+#5
+
+Please come and catch this godsforsaken cat before I lose my sanity.
+
+Drifter: [
+    Drifter to the rescue. :) &ArthurDating>9:6
+    I'll come help when I'm done laughing. >7
+    You're on your own, sorry. >14
+]
+
+#6
+
+Thanks, mate. >13
+
+#13
+
+I owe you one. >E
+
+#9
+
+Thanks, love. >13
+
+#7
+
+At least you're getting some enjoyment out of this. >E
+
+#8
+
+Fine. >E
+
+#14
+
+Very reliable of you. >E

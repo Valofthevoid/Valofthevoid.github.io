@@ -1,0 +1,337 @@
+#1
+
+&DrifterInBackroom>25:35
+
+#25
+
+Drifter: So, I tried bringing some food back... >53
+
+#35
+
+Drifter: So, I tried taking some food through on my last trip... >20
+
+#20
+
+Drifter: [
+    It smelled okay. Maybe we eat it when I get back? >8
+    It looked... um, intact. Mostly. &ArthurDating>21:22
+    Want to try it for me? >23
+]
+
+#53
+
+Drifter: [
+    And it smells okay, so I'm thinking we eat it for dinner. >8
+    It looks... um, intact. Mostly. &ArthurDating>21:22
+    Want to try it for me? >23
+]
+
+#21
+
+You need to work on your sales pitch, love. >8
+
+#22
+
+You need to work on your sales pitch, mate. >8
+
+#23
+
+I don't like what you're implying.
+
+Drifter: [
+    What am I implying? >24
+    It's fine. It's safe... I think. &ArthurDating>27:28
+    &!ArthurDating Bet I can get Quincy to try it. &QuincyDating>31:32
+]
+
+#31
+
+Do you know how low of a bar that is for you?
+I'm not risking it. >E
+
+#32
+
+That's not the call to action you think it is.
+Pass. >E
+
+#27
+
+Sol above, the things I do for you...
+What kind of food is it? >29
+
+#28
+
+You're a shining beacon of confidence...
+I'm going to stay out of this.
+You might try Quincy, though. >E
+
+#24
+
+That you wouldn't touch it with a ten foot pole. &ArthurDating>27:26
+
+#26
+
+If I didn't know better, I'd say you're trying to murder me.
+Not interested, sorry. >E
+
+#8
+
+What kind is it? >29
+
+#29
+
+Drifter: [
+Zariman rations. >2
+Kuaka stew. &ArthurKomiRodent>5:17
+Some kind of gunk packet from Fortuna. >4
+]
+
+#2
+
+The kind that's all squares?
+Well... I'm curious.
+
+Drifter: [
+It's pretty good. >9
+It's pretty bad. >10
+&SquareSpaghetti 100% gelatin-free. &ArthurDating>11:30
+]
+
+#9
+
+&ArthurAteSquares=TRUE
+
+Looking forward to it, then. >E
+
+#11
+
+Are you *ever* going to let that go? Or am I stuck with it for all of eternity?
+
+Drifter: [
+    Stuck with it. >37
+    Nah, it's getting kind of old. I won't bring it up again. >36
+]
+
+#37
+
+Ugh.
+I'll still eat your squares, but it might be out of spite. >E
+
+#36
+
+&SquareSpaghetti=FALSE
+
+Thank Sol for small miracles.
+Looking forward to trying your "squares." >E
+
+#30
+
+I've changed my mind. >E
+
+#10
+
+&ArthurAteSquares=TRUE
+
+But you want to eat it for dinner?! &ArthurDating>12:13
+
+#12
+
+Sigh.
+Not really sure what it says about me that I'm still game for this.
+
+Drifter: [
+    That you love me. :) >14
+    That you're a sucker. >15
+    Not sure what it says about me, either. >16
+]
+
+#14
+
+I do.
+Don't abuse your power too often, sweets.
+I'll see you at dinner. >E
+
+#15
+
+Clearly. >E
+
+#16
+
+I'll find us something to wash it down with... >E
+
+#13
+
+Fine. I'll join, but I won't promise not to insult it. >E
+
+#4
+
+&ArthurAteGunk=TRUE
+
+"Gunk packet"?
+Not to ruin it for you, but we might have a few "gunk packets" laying around as it is.
+Rations — MREs. Chicken paté flavour.
+Tastes a bit like cat food.
+
+Drifter: [
+    So... Does that mean you don't want to try it? >33
+    You eat cat food? &ArthurDating>34:52
+    Someone has to like it, right? >38
+]
+
+#38
+
+Not in the least.
+Eleanor has a pet theory that they've actually been discontinued for years.
+They're shuffled around storerooms for a bit, then end up back at HQ.
+She's certain someone makes an excuse about "the budget" and redistributes them to the next poor sods.
+Only reason I know it isn't true is because Quincy keeps feeding ours to the local strays.
+
+Drifter: [
+    Quincy's not a cat person, is he? >39
+]
+
+#39
+
+Hardly. He's in it for the FRHs.
+Doesn't want the food going to total waste, is all.
+
+Drifter: [
+    What's an FRH? >40
+    Why does he want FRHs? >41
+]
+
+#40
+
+The little heaters.
+Not as useful for us, but most soldiers don't get to hole up in a place with a food court.
+The fun comes in using them to blow holes in plastic bottles.
+
+Drifter: [
+    They explode?! >42
+    LOL >42
+]
+
+#42
+
+Don't get too excited. They're noisemakers, at best. >65
+
+#65
+
+Can't say they aren't dangerous, but I saw worse in secondary school.
+At least Quincy knows better than to use them for pranks.
+
+Drifter: [
+    Quincy? I'm not so sure. >43
+    Too bad. Sounds like he's missing out. >44
+]
+
+#44
+
+Don't make me warn you off, as well...
+In case it hasn't occurred to you: when a plastic bottle explodes,
+for civvies, it sounds near enough to a gunshot.
+Sol knows every time a car backfires someplace, it's an everloving bloody "incident."
+
+Drifter: So what *does* Quincy do with them? >45
+
+#45
+
+Puts on a show in the car park. "Science lessons," he says.
+Children can't get enough of it, that's for certain.
+I keep myself busy around those times. Pretend I don't know about it.
+More for his ego than anything else.
+Don't tell him I said that.
+
+Drifter: [
+    Secret's safe with me. >51
+    No way am I keeping that to myself, lol. >46
+]
+
+#46
+
+Can't imagine he'd be happy to hear it.
+But that's on your shoulders, not mine. >47
+
+#51
+
+Appreciate it. And the chat. Not looking forward to the paté. &ArthurDating>48:49
+
+#47
+
+Appreciate the chat. Not looking forward to the paté. &ArthurDating>48:49
+
+#48
+
+But I'm looking forward to your company. >E
+
+#49
+
+But, who knows? Might even be edible, if I'm lucky. >E
+
+#43
+
+Heh. Can't blame you.
+I'm only as confident because I know what he's doing with them. >45
+
+#41
+
+They're a little explosive, if you know what to do with them. >65
+
+#34
+
+I meant the bleeding *smell,* love. >50
+
+#58
+
+Bring one by my office when you can. Let's get it over with. >E
+
+#52
+
+I meant the bleeding *smell,* mate! >50
+
+#50
+
+Drifter: [
+    :) >33
+    Sure, sure. >33
+]
+
+#33
+
+Sigh.
+Let me find a drink to wash it down with. >E
+
+#17
+
+&ArthurAteKuaka=TRUE
+
+Kuaka are rodents, aren't they? &LettieDating>7:18
+
+#18
+
+&ArthurKomiRabbit Or are they rabbits?
+Must taste all right if somebody's making stew out of it. &ArthurDating>6:19
+
+#19
+
+But you might want to be... cautious, if you ask Lettie in. >E
+
+#7
+
+You might want to run this by Lettie, mate. >E
+
+#6
+
+I'll find us some drinks to wash it down. >E
+
+#5
+
+&ArthurAteKuaka=TRUE
+
+You play komi with a rodent, and you also eat them.
+
+Drifter: Different rodent, but yeah. >3
+
+#3
+
+I still wouldn't tell Lettie, if I were you. >E

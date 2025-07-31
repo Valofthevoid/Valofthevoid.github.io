@@ -1,0 +1,212 @@
+:root {
+    --kim-content-padding: calc(4 * var(--dpr));
+    --kim-button-height: 2rem;
+}
+
+#chat {
+    /*aspect-ratio: 5/3;
+    width: 38rem;
+    position: absolute;
+    top: 7rem;
+    left: 4rem;*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+    .content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+#messages,
+#options {
+    margin: var(--kim-content-padding);
+}
+
+#messages {
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: var(--pom2-border-width) inset var(--pom2-white);
+}
+
+#chatlog {
+    flex-basis: 0;
+    flex-grow: 1;
+    overflow-y: scroll;
+
+    &>div {
+        padding: var(--kim-content-padding);
+
+        &>span {
+            color: var(--pom2-blue);
+
+            &.drifter {
+                color: var(--pom2-red);
+            }
+
+            &.system,
+            &.system+p {
+                color: var(--pom2-gray);
+                font-style: italic;
+                font-size: 0.9em;
+            }
+
+            &::after {
+                content: ':';
+            }
+        }
+
+        &:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+
+    &.hide-system>div {
+        &:nth-last-child(1 of &:not(:has(.system))) {
+            padding-bottom: 1rem;
+        }
+    }
+
+    &.hide-system>div:has(.system) {
+        display: none;
+    }
+}
+
+#status {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: var(--pom2-gray);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex: 0;
+
+    &::before {
+        content: '\a0';
+    }
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    padding: var(--kim-content-padding);
+    gap: var(--pom2-content-padding);
+    border: var(--pom2-border-width) inset var(--pom2-white);
+
+    &>button {
+        background-color: transparent;
+        text-align: left;
+        height: var(--kim-button-height);
+        box-sizing: content-box;
+        white-space: nowrap;
+        position: relative;
+        overflow: hidden;
+
+        &>span {
+            display: block;
+            padding: var(--kim-content-padding);
+            line-height: calc(var(--kim-button-height) - 2*var(--kim-content-padding));
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        &:not(:disabled) {
+            background-color: var(--pom2-lightgray);
+            border: var(--dpr) solid var(--pom2-lightgray);
+
+            &>span::before {
+                content: "\2022";
+                display: inline-block;
+                width: 1rem;
+                font-size: 1.5rem;
+                line-height: 1rem;
+                vertical-align: middle;
+                margin-top: -0.25rem;
+            }
+
+            &:hover {
+                background: rgba(239, 198, 61, 0.56);
+                &>span::before {
+                    content: "\2023";
+                }
+            }
+        }
+    }
+
+    &[data-render="wrap"]>button {
+        min-height: var(--kim-button-height);
+        height: fit-content;
+        white-space: normal;
+    }
+
+    &[data-render="animate"]>button>span {
+        animation: SlideText 3s ease-in-out infinite alternate;
+        position: absolute;
+        top: 0;
+    }
+}
+
+.gold {
+    background-image: linear-gradient(90deg,
+            var(--pom2-black) 0%,
+            var(--pom2-black) 6.25%,
+            var(--pom2-gold) 12.5%,
+            var(--pom2-gold) 17.75%,
+            var(--pom2-black) 25%,
+            var(--pom2-black) 31.25%,
+            var(--pom2-gold) 37.5%,
+            var(--pom2-gold) 43.75%,
+            var(--pom2-black) 50%,
+            var(--pom2-black) 56.25%,
+            var(--pom2-gold) 62.5%,
+            var(--pom2-gold) 68.75%,
+            var(--pom2-black) 75%,
+            var(--pom2-black) 81.25%,
+            var(--pom2-gold) 87.5%,
+            var(--pom2-gold) 93.75%,
+            var(--pom2-black) 100%);
+    color: transparent;
+    background-clip: text;
+    background-size: 200% 100%;
+    animation: GoldAnimation 5s linear infinite;
+}
+
+@keyframes GoldAnimation {
+    0% {
+        background-position: 100% 0%
+    }
+
+    100% {
+        background-position: 0% 0%
+    }
+}
+
+@property --slide-distance {
+    syntax: '<length>';
+    initial-value: 0;
+    inherits: true;
+}
+
+@keyframes SlideText {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 0;
+    }
+
+    75% {
+        left: var(--slide-distance);
+    }
+
+    100% {
+        left: var(--slide-distance);
+    }
+}

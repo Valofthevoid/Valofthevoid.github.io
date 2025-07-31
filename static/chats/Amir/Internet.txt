@@ -1,0 +1,521 @@
+#1
+
+&AmirDating BABE!! >15
+&NameFuture FUTURE!! >15
+DRIFT!! >15
+
+#15
+
+I FORGOT
+i dunno why i didn't ask about the internet before and whether you even have one
+cause i mean you kind of get it but when you don't you reeeaaaaaally don't lol
+
+Drifter: [
+    We have internet, but it's not like yours. >6
+    Nope. The internet is dead. >2
+    &!DrifterInBackroom I'm in space right now, and I'm talking to you over the internet. Does that count? >17
+    Busy, gtg. >E
+]
+
+#17
+
+oml WHAT
+did i know about this?!
+wait does time pass the same when you're up there
+is it supposed to do that
+
+Drifter: [
+    I guess? >24
+    Entrati designed it, so... >20
+    ...I think that question gave me a headache... >18
+]
+
+#24
+
+Drifter: I mean, there's nothing around to cause severe time dilation. If I'm moving a little slower, or a little faster, you wouldn't notice. >25
+
+#25
+
+&AmirSpaceScience=TRUE
+
+whoooooooooosh
+see that's the sound of what you just said zooming way past me because i've never had to look up FRIGGING SPACE before
+brb gotta go research time dilation >E
+
+#20
+
+so, yes
+aaaaaaaaghrhasdljawpk i don't want to think about him right now gonna go run it off >E
+
+#18
+
+yeah me too lmao
+we'll just pretend i didn't think about it
+we did not talk i was never here :x &AmirDating>19:E
+
+#19
+
+wedidiwastotallyherecomeseemewhenyou'rehomeimissyou >E
+
+#2
+
+whaaaaat?? HOW DO YOU TALK TO PEOPLE?!
+like you still have to talk to people right? like if you want to get a gun dropshipped DIRECTLY TO YOUR SPACESHIP you have to have something
+i mean unless there's a different way to talk but how would you do that without a network
+you don't use carrier pigeons in space lol can you imagine
+like don't get me wrong i'd die happy if i had a pet pigeon that i didn't have to feed or remember to take care of or anything because it could SURVIVE IN SPACE
+but there's no way that's a thing
+that's not a thing right?
+
+Drifter: [
+    Stay on topic lol. Internet. >3
+    Sorry, no pet superpigeons. >14
+]
+
+#14
+
+pffff someone needs to get on that asap lol >13
+
+#3
+
+INTERNET YES
+okaysorrybutlike
+you have to
+i know you're telling me you DON'T have it but since I KNOW you don't have sir or madam badass superpigeon there's gotta be some kind of infrastructure
+wait hold on it's just radio isn't it
+noooooo it's just radio isn't it?!
+that is so boring
+and SLOW
+
+Drifter: [
+It's not that bad. We use the Void to shorten transit on important transmissions. >7
+I don't think it's boring. It's like fire. >21
+]
+
+#21
+
+you mean actual fire and not fire like 'woah i'm impressed radio's so cool' fire right?
+&AmirDating lol ok ok lay it on me loveadoodle, why fire >22
+&!AmirDating lol ok ok lay it on me, why fire >22
+
+#22
+
+Drifter: Humankind figured out fire really early, right? And you still use it. You figured out *better ways* to use it, but it's still here. >23
+
+#23
+
+&AmirRadioScience=TRUE
+
+ooooohhhhh got it got it, radio waves are just SO GOOD that they stick around
+yeah i can see that
+and in the future it's probably something people can put together in two seconds with like, scraps from the back yard lmao
+right now it's like COMPANY RELEASES NEW SLEEK RADIO TRANSMITTER or SPACE AGENCY ADDS NEW RADIO SATELLITE
+but for you it's probably like LITTLE BILLY BUILT TRANSMITTER PENCIL TO TALK TO HIS FRIEND WHO MOVED TO PLUTO
+ok yeah that's pretty cool actually
+and hey i've got all the time in the world to learn how to make my own awesome backyard mad science, so
+brb just had a funny idea >E
+
+#7
+
+still boring >13
+
+#13
+
+&AmirPigeonScience=TRUE
+
+&AmirDating badass superpigeon idea just landed in my brain tho talk later <3 <3 <3 >E
+badass superpigeon idea just landed in my brain tho talk later >E
+
+#6
+
+Drifter: [
+There are systems that talk to each other, but people don't use it. >11
+If I send a message, it takes a while to get there. Something like KIM wouldn't work. >8
+]
+
+#11
+
+why tho?!
+like i get that messages take a long time but >5
+
+#8
+
+okay but kim isn't the whole internet >5
+
+#5
+
+what about message boards or websites
+or email >12
+
+#12
+
+Drifter: [
+We kind of have email? I get messages sometimes. >26
+Maybe because of spam? >9
+I don't know why we don't have those. We just don't. >52
+]
+
+#52
+
+maybe they do exist and you just don't have access
+like if everyone's divided into their little cliques and they all run stuff for just THEM
+and they're like 'nah drifter's not invited to this party'
+
+Drifter: [
+    Ouch. >54
+    I've never even heard of them though. >53
+]
+
+#54
+
+oml no wait hold on i didn't mean that you're an outcast or anything
+i mean you do have your social 'moments' but that's just your upbringing it's fine
+wait no i didn't mean that either
+&AmirDating pleasedon'tbreakupwithme
+
+Drifter: [
+    It's okay, lol. I know it's just hypothetical. >57
+    You're not completely wrong, though. >58
+]
+
+#57
+
+ohthanksol >56
+
+#58
+
+Drifter: There are definitely people who stay close to me because of what I can do, not for who I am as a person. >55
+
+#55
+
+yeah i know that feeling
+and it makes you doubt the people who ARE around for the right reasons &!AmirDating>56
+i don't doubt you but i definitely doubt most people >56
+
+#56
+
+i'm gonna go before i put my foot in my mouth again
+&AmirDating thanks for the info babe :D >E
+thanks for the info friendo :D >E
+
+#53
+
+that's kinda depressing
+i mean
+yeah, people can be HORRIBLE sometimes in places but it's pretty okay if the admins stay on the ball
+and it's nice getting to know people where i can write a post out and not have to worry about how long it takes or whether it makes sense because i can just rewrite it until it does
+so
+yeah
+gotta think about that but thanks for the info
+you're the bessssssttttt >E
+
+#26
+
+&AmirDating hun
+i hate to break it to you but you can't just say 'i get messages sometimes' and not elaborate on that
+i mean that's just email right lol
+
+Drifter: [
+    It's mostly receipts. >27
+    It's mostly advertisements. >39
+    It's mostly free stuff. >47
+    It's mostly hate mail... >50
+]
+
+#50
+
+lol good one
+
+Drifter: I'm not joking. >59
+
+#59
+
+seriously?! your inbox is straight up full of hate mail?!
+WHAT DID YOU DO LMAO
+
+Drifter: [
+    I killed people. >51
+    I killed some VIPs. >51
+    I killed people, robots, infested... >51
+]
+
+#51
+
+...oh
+i gtg >E
+
+#47
+
+what's the catch?
+
+Drifter: Catch? >60
+
+#60
+
+yeah like 'you get this free stuff if you sign up for a year of our crappy cds' or 'here's a free game but it came with a trojan lol enjoy'
+
+Drifter: [
+    There's no catch. It's just free stuff. >49
+    I guess the catch is that I had to earn it? >48
+]
+
+#48
+
+PHEW OK THE FUTURE DOESN'T HAVE FREE STUFF
+CRISIS AVERTED
+i'm kidding i know you just mean it didn't cost you any money or anything >49
+
+#49
+
+free stuff exists here SOMETIMES but having an inbox FULL OF FREE STUFF is like
+aaaaaghhhh i'm jealous
+gonna go find something free to give someone so i feel better about the present
+GET IT THE PRESENT HA HA
+yeah that wasn't funny but the doing part wasn't a joke so brb >E
+
+#39
+
+uuuuugh SPAM >67
+
+#67
+
+i HATE spam
+you sign up for something cool ONE TIME and suddenly you get emails from like a billion scuzzy sites
+and then if they do it too much i have to do something about it to make them stop
+like ask
+or get their info and find an exploit
+or spin up a server and keep HITTING THEM WITH REQUESTS until it can't send anything anymore
+mostly i just ask
+
+Drifter: [
+    Sounds... vindictive? >40
+    I kinda like the advertisements I get. It's always good stuff. >46
+]
+
+#46
+
+add one to the column of things better in the future
+out here in shitty past land a guy can only get offered 'enlargement' so many times before he wants to scream
+
+Drifter: [
+    &AmirDating &Sexy I get it. No one wants to see ads for something they don't need. ;) >43
+    Enlargement? &AmirDating>42:41
+]
+
+#40
+
+yeah ok but a guy can only get offered 'enlargement' so many times before he wants to scream okay
+
+Drifter: [
+    &AmirDating &Sexy You don't need it. ;) >43
+    Enlargement? &AmirDating>42:41
+]
+
+#43
+
+we
+that
+i
+
+Drifter: [
+    Did I break you? >44
+    That looks like a positive reaction, lol. >44
+]
+
+#44
+
+NO
+YES
+LET'S
+GO DO SOMETHING
+&!DrifterInBackroom imeanwhenyou'reback
+
+Drifter: [
+    Something about "enlargement"? ;) >45
+    &AmirThai Sure. Pad Thai? >45
+    Drinks? >45
+]
+
+#45
+
+okay i know we've been a THING for a while but like this all still fries me
+especially on here
+NOT IN A BAD WAY
+just that when we're not in the same place it's like i can't believe you're still here
+with me
+and then you come in hot and i'm like YEP STILL ATTRACTED TO ME SOMEHOW
+aaaaaaaand i'm OBVIOUSLY attracted to you too because WHO WOULDN'T BE
+so yeah let's do a date
+andthentheotherthing >E
+
+#42
+
+ohshit
+i uh
+i'llexplainlatergtgbye >E
+
+#41
+
+nonono i am NOT explaining that this is NOT IN THE JOB DESCRIPTION
+
+&ArthurDating askarthurandtellhimihadnothingtodowiththisbye >E
+&EleanorDating askeleanoranddon'tletherlaughatmebye >E
+&AoiDating askaoianddon'ttellheritwasmebye >E
+&LettieDating asklettieanddon'tletherkillmebye >E
+&QuincyDating askquincyanddon'tlethimlaughatmebye >E
+
+please just ask someone else
+i'mbeggingyoupleaseokbye >E
+
+#27
+
+how much stuff do you buy?!?!
+just kidding lol i'm sure it's a totally reasonable amount of things for someone living in space and not all bobbleheads or something
+
+Drifter: [
+    Um. About that... >28
+    No, it's all useful. >37
+]
+
+#37
+
+useful like guns or useful like cleaning robots >38
+
+#28
+
+wait is it really bobbleheads
+tell me it's bobbleheads
+
+Drifter: [
+    It's bobbleheads. >36
+    It's not bobbleheads, but I buy a lot of decorations... >30
+    It's mostly fashion... >29
+]
+
+#36
+
+I KNEW IT
+you know we have to make a spreadsheet or something for your collection right
+i think there's an install disk for spreadsheet software around here somewhere because arthur's computer DEFINITELY has it
+bet you didn't think he'd be the spreadsheet baron lmao
+i mean i'm joking i don't know if he actually uses it just that his computer was used by some manager before we, uh
+requisitioned
+it
+it's fine we're not the bad guys ha ha ha
+anyway brb >E
+
+#30
+
+wait is that where you get the weird models and furniture and stuff you bring here sometimes >38
+
+#38
+
+&AmirDroneScience=TRUE
+
+WAIT IS THAT WHERE YOU GOT THE CLEANING ROBOT
+CAN YOU FILL THE BACK ROOM WITH CLEANING ROBOTS
+i'daskyoutofillthemallbutithinkarthurwouldliterallymurderme
+
+Drifter: [
+    Way too expensive. &AmirDating>33:34
+    Sure? It might take a while. >32
+    No. >31
+]
+
+#33
+
+::sigh:: guess i shoulda dated a RICH void powered time traveler instead
+justkiddingiloveyou
+ireallydo >35
+
+#34
+
+::sigh:: guess i shoulda been friends with a RICH void powered time traveler instead
+justkiddingyou'reawesome >35
+
+#35
+
+maybe i can mod cleanybot 3000 instead
+brb gonna go find ideas >E
+
+#32
+
+you
+are
+AMAZING
+like seriously i know it's expensive so take as long as you want or change your mind or whatever but that would be the coolest thing
+&AmirDating i could put different gadgets on each of them so we can tell the difference
+&!AmirDating i could put different gadgets on each of them so you can tell the difference
+brb gonna go find ideas >E
+
+#31
+
+pssssh ruin a guy's dream why don't you
+&AmirDating that'sokyou'restillthebest
+brb gonna visit cleanathonasaurus &!DrifterInBackroom>E
+you can come too
+ornotifyou'renotfeelingitthat'sfine
+kbye
+
+#29
+
+wait is that where you get the paints and different shells for your guns and stuff and, like, capes?
+you go on space internet and go space shopping for space fashion that you put on your warframes
+&AmirDating BABE YOU USE THE INTERNET
+&!AmirDating FRIENDO YOU USE THE INTERNET
+even if you don't call it that lol
+gtg i'll think up more questions for you later
+ps your fashion is sweeeeeeeet >E
+
+#9
+
+ohhhhh i get it
+i think i get it lol
+you're saying maybe message boards used to exist
+but you guys have cephalons and automatic EVERYTHING
+and at some point every post is just trash advertising videos and weird pills
+&Sexy videos in super air quotes
+
+Drifter: [
+Sure, we'll go with that. >61
+&Sexy Why is "videos" in air quotes? >10
+]
+
+#61
+
+i guess if you got email it would be SPAMTACULAR too lol
+
+Drifter: I have an inbox for messages. That's kind of similar, right? >62
+
+#62
+
+similar?! INBOX. FOR MESSAGES. &AmirDating>63:64
+
+#63
+
+sweetiepie that IS email LMAO!!!! THE FUTURE HAS EMAIL >65
+
+#64
+
+that IS email LMAO!!!! THE FUTURE HAS EMAIL >65
+
+#65
+
+okokok what kind of messages do you get? is it, in fact, SPAMTACULAR?
+
+Drifter: [
+    It's mostly receipts. >27
+    It's mostly advertisements. >66
+    It's mostly free stuff. >47
+    It's mostly hate mail... >50
+]
+
+#66
+
+I KNEW IT >67
+
+#10
+
+uhhhhhhhh ::shifty eyes::
+&AmirDating gtgbyeloveyou >E
+gtgbye >E

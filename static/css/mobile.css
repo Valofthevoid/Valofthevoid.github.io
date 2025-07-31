@@ -1,0 +1,60 @@
+:root {
+    --mobile-nav-height: 1.65rem;
+}
+
+nav {
+    display: none;
+}
+
+@media(max-width: 36rem) {
+    :root {
+        --kim-button-height: 2.5rem;
+    }
+
+    nav {
+        height: var(--mobile-nav-height);
+        background-color: var(--pom2-offwhite);
+        display: flex;
+        width: 100%;
+
+        & button {
+            border: var(--pom2-border-width) outset var(--pom2-white);
+            padding: 0 var(--pom2-content-padding);
+            flex-basis: 50%;
+
+            &:disabled {
+                border-color: transparent;
+            }
+        }
+    }
+
+    #gotoConfig::before {
+        content: "\003C\003C\003C";
+    }
+
+    #gotoChat::after {
+        content: "\003E\003E\003E";
+    }
+
+    .window {
+        min-height: calc(100vh - 2 * var(--pom2-window-margin));
+
+        &:not(.active) {
+            display: none !important;
+        }
+    }
+
+    .window {
+        max-width: none;
+        width: calc(100% - 2*var(--pom2-window-margin));
+        min-height: calc(100vh - 2 * var(--pom2-window-margin) - var(--mobile-nav-height));
+    }
+
+    #config label>br {
+        display: none;
+    }
+
+    #options[data-render="animate"]>button>span {
+        animation: SlideText 3s ease-in-out infinite alternate;
+    }
+}
