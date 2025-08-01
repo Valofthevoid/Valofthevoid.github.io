@@ -36,7 +36,7 @@ async function sendKIM(sender, message, wordcount, gold /*(unused)*/) {
     const img = document.createElement('img');
     img.className = "chatpfp";
     if(typeof(sender) != "object") {
-        img.src = "./static/images/pfp/"+ sender + ".jpg";
+        img.src = "./static/images/pfp/"+ sender.toLowerCase() + ".jpg";
     }
     else {
         img.src = "./static/images/pfp/drifter.jpg";
