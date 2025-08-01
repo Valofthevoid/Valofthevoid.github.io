@@ -73,16 +73,16 @@
                 <img src="./static/images/pfp/glimmer.JPG" width="64px"><span class="userpf">xX GLIMMER Xx<br><span>Offline</span></span>
                 </button>
                 <button class="amog" onclick="play()" value="Amir">
-                <img src="./static/images/pfp/highvoltage.JPG" width="64px"><span class="userpf">H16h V0l7463<br><span>Online</span></span>
+                <img src="./static/images/pfp/H16h V0l7463.JPG" width="64px"><span class="userpf">H16h V0l7463<br><span>Online</span></span>
                 </button>
                 <button class="amog" onclick="play()" value="Arthur">
                 <img src="./static/images/pfp/broadsword.JPG" width="64px"><span class="userpf">Broadsword<br><span>Online</span></span>
                 </button>
                 <button class="amog" onclick="play();" value="Eleanor">
-                <img src="./static/images/pfp/eleanorpfp.png" width="64px"><span class="userpf">Salem<br><span>Online</span></span>
+                <img src="./static/images/pfp/Salem.jpg" width="64px"><span class="userpf">Salem<br><span>Online</span></span>
                 </button>
                 <button class="amog" onclick="play()" value="Lettie">
-                <img src="./static/images/pfp/belladona.JPG" width="64px"><span class="userpf">Belladonna ~{@<br><span>Offline</span></span>
+                <img src="./static/images/pfp/belladona ~{@.JPG" width="64px"><span class="userpf">Belladonna ~{@<br><span>Offline</span></span>
                 </button>
                 <button class="amog" onclick="play()" value="Quincy">
                 <img src="./static/images/pfp/solda.JPG" width="64px"><span class="userpf">Soldja1Shot1kil<br><span>Offline</span></span>
@@ -94,7 +94,7 @@
                 <label>
                     Topic:
                     <select id="topic">
-                        <option data-whose="Arthur" disabled>Kalymos</option>
+                        <option data-whose="Arthur" disabled>test</option>
                         <option data-whose="Arthur" disabled>Kalymos</option>
                         <option data-whose="Arthur" disabled>Kalymos2</option>
                         <option data-whose="Arthur" disabled>Komi</option>
@@ -130,6 +130,10 @@
                 <button id="start">Start conversation</button>
                 <button id="reload" onclick="location.reload()">Reload</button>
                 <button id="clear" onclick="localStorage.clear();location.reload()">Reset Flags/Config</button>
+                <audio controls loop>
+                <source src="./static/sounds/audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
             </div>
         </div>
         <div class="window" id="chat">
@@ -152,10 +156,6 @@
             </div>
         </div>
     </main>
-        <audio controls loop>
-    <source src="./static/sounds/audio.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
     <div id="divtest"></div>
     <audio class="hovers" preload="auto">
                 <source src="./static/sounds/hoversounds/NinetyNineMessengerHoverA.wav" type="audio/wav">

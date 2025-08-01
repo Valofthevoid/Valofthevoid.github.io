@@ -187,3 +187,19 @@ span {
     overflow-y: scroll;
     height: 500px;
 }
+.chatpfp {
+    width:48px;
+    height:48px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+.messageDiv {
+    flex:1;
+    flex-grow: 1;
+    margin-left: 5px;
+    vertical-align:top;
+}
+.chatMessage {
+    display:flex;
+}

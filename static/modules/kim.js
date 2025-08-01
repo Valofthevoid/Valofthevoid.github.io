@@ -26,15 +26,26 @@ async function sendKIM(sender, message, wordcount, gold /*(unused)*/) {
         }
     }
     else
-        senderEl.classList.add(sender.name.toLowerCase());
+    senderEl.classList.add(sender.name.toLowerCase());
     senderEl.textContent = sender;
-
+    const messageDiv = document.createElement("div");
+    messageDiv.className = "messageDiv";
     const contentEl = document.createElement('p');
     if (gold) contentEl.classList.add("gold");
     contentEl.textContent = message;
-
+    const img = document.createElement('img');
+    img.className = "chatpfp";
+    if(typeof(sender) != "object") {
+        img.src = "./static/images/pfp/"+ sender + ".jpg";
+    }
+    else {
+        img.src = "./static/images/pfp/drifter.jpg";
+    }
     const div = document.createElement('div');
-    div.append(senderEl, contentEl);
+    div.className = "chatMessage";
+    div.append(img);
+    messageDiv.append(senderEl, contentEl);
+    div.append(messageDiv);
 
     $messageWindow.appendChild(div);
     div.scrollIntoView({ block: "nearest", inline: "nearest" });
