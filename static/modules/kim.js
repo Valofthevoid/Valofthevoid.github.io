@@ -16,7 +16,7 @@ function updateStatus(text) {
 
 async function sendKIM(sender, message, wordcount, gold /*(unused)*/) {
     if (!message) return;
-
+    console.log(sender);
     const senderEl = document.createElement('span');
     if (!sender) {
         sender = chatTarget.toString();
@@ -43,13 +43,30 @@ async function sendKIM(sender, message, wordcount, gold /*(unused)*/) {
     }
     const div = document.createElement('div');
     div.className = "chatMessage";
+    if(typeof(sender) != "object" || sender.name != "System"){
     div.append(img);
+    }
     messageDiv.append(senderEl, contentEl);
     div.append(messageDiv);
 
     $messageWindow.appendChild(div);
     div.scrollIntoView({ block: "nearest", inline: "nearest" });
-
+    var messageReceive = document.getElementById('messagereceive');
+    var messageSend = document.getElementById('messagesend');
+    if(typeof(sender) != "object") {
+        messageSend.load();
+        messageReceive.volume = 0.3;
+        messageReceive.load();
+        messageReceive.play().catch(error => {
+      console.error('Playback failed: amogus', error);
+           });}
+    else {
+    if(typeof(sender) != "object" || sender.name != "System"){
+        messageSend.volume = 0.3;
+        messageSend.load();
+        messageSend.play().catch(error => {
+      console.error('Playback failed: amogus', error);
+    });}}
     updateStatus('');
     if (wordcount && $delay.checked)
         await pause(300);
