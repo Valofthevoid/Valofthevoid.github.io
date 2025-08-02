@@ -186,6 +186,9 @@ span {
     padding: 5px;
     overflow-y: scroll;
     height: 500px;
+    scrollbar-width: thin;
+    scrollbar-color: white #242020;
+    min-height:150px;
 }
 .chatpfp {
     width:48px;
@@ -202,4 +205,23 @@ span {
 }
 .chatMessage {
     display:flex;
+}
+
+#pfps {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+#pfps > img {
+    width:140px;
+    height:140px;
+    border:2px solid gray;
+}
+#pfps > img:nth-child(2) {
+    margin-top:auto;
+}
+#chatcontainer {
+    display:flex;
+    flex-direction: column;
+    width:100%;
 }

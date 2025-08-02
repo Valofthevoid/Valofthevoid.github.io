@@ -13,6 +13,8 @@ select {
         flex-direction: column;
         gap: var(--pom2-content-padding);
         padding:10px;
+        height:90vh;
+        overflow:auto;
         & label>span {
             white-space: nowrap;
         }

@@ -24,7 +24,7 @@
             Chat Pane
         </button>
     </nav>
-    <main>
+    <main style='background-image: url("./static/images/background.jpg");'>
         <div class="window active" id="config">
             <div class="titlebar">
                 <div class="title">
@@ -82,7 +82,7 @@
                 <img src="./static/images/pfp/salem.jpg" width="64px"><span class="userpf">Salem<br><span>Online</span></span>
                 </button>
                 <button class="amog" onclick="play()" value="Lettie">
-                <img src="./static/images/pfp/belladona ~{@.jpg" width="64px"><span class="userpf">Belladonna ~{@<br><span>Offline</span></span>
+                <img src="./static/images/pfp/belladona ~{@.jpg" width="64px"><span class="userpf">Belladonna ~{@<br><span>Online</span></span>
                 </button>
                 <button class="amog" onclick="play()" value="Quincy">
                 <img src="./static/images/pfp/soldja1shot1kil.JPG" width="64px"><span class="userpf">Soldja1Shot1kil<br><span>Offline</span></span>
@@ -103,6 +103,7 @@
                         <option data-whose="Amir" disabled>Internet</option>
                         <option data-whose="Eleanor" disabled>Light</option>
                         <option data-whose="Eleanor" disabled>Viktor</option>
+                        <option data-whose="Lettie" disabled>Eleanor</option>
                     </select>
                 </label>
                 <label>
@@ -143,6 +144,8 @@
                 </div>
             </div>
             <div class="content">
+                  <div id="pfps"><img id="talkingTo" style="display:block"><img style="display:block" src="static/images/pfp/drifter.jpg"></div>
+                <div id="chatcontainer">
                 <div id="messages">
                     <div id="chatlog" aria-label="Chat log" role="log"></div>
                     <div id="status"></div>
@@ -152,6 +155,7 @@
                     <button disabled><span></span></button>
                     <button disabled><span></span></button>
                     <button disabled><span></span></button>
+                </div>
                 </div>
             </div>
         </div>

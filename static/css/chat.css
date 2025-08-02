@@ -16,30 +16,31 @@
     .content {
         flex-grow: 1;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 }
 
 #messages,
 #options {
     margin: var(--kim-content-padding);
+
 }
 
 #messages {
     flex-basis: 0;
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     position: relative;
-    border: var(--pom2-border-width) inset var(--pom2-white);
+    overflow: auto;
+
 }
 
 #chatlog {
     flex-basis: 0;
     flex-grow: 1;
     overflow-y: scroll;
-
+    border: 4px inset #d3d3d3;
+    border-right: 4px inset #9f9f9f;
     &>div {
         padding: var(--kim-content-padding);
         &>div {
@@ -93,11 +94,12 @@
 }
 
 #options {
+    border: 4px inset #d3d3d3;
+    border-right: 4px inset #9f9f9f;
     display: flex;
     flex-direction: column;
     padding: var(--kim-content-padding);
     gap: var(--pom2-content-padding);
-    border: var(--pom2-border-width) inset var(--pom2-white);
 
     &>button {
         background-color: transparent;

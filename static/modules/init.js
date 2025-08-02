@@ -164,7 +164,9 @@ window.onload = () => {
 
     {
         var lsv = parseInt(localStorage.getItem("chatwith"));
+        var talkingPFP = document.getElementById("talkingTo");
         var namestonum = [["Aoi", 0], ["Amir", 1], ["Arthur", 2], ["Eleanor", 3], ["Lettie", 4], ["Quincy", 5]];
+        var namesToScreen = ["xx_glimmer_xx","h16h v0l7463", "broadsword", "salem","belladona ~{@", "soldja1shot1kil"];
         if (lsv && !isNaN(lsv))
             var name;
             namestonum.forEach((nameset) => {
@@ -184,6 +186,7 @@ window.onload = () => {
             console.log($selectButtons[index].value);
         }
 
+        var pfps = document.getElementById("pfps");
         function updateChatTargetTest(name) {
             $chattopic.value = 0;
             $chatwith = name;
@@ -191,6 +194,9 @@ window.onload = () => {
             namestonum.forEach((nameset) => {
                 if(nameset[0] == name){
                     localStorage.setItem("chatwith", nameset[1]);
+                    console.log(namesToScreen);
+                    console.log(name);
+                    talkingPFP.src = "./static/images/pfp/" + namesToScreen[nameset[1]] + ".jpg";
                 }
             });
         }
