@@ -223,5 +223,13 @@ span {
 #chatcontainer {
     display:flex;
     flex-direction: column;
-    width:100%;
+    flex-grow:1;
+    width:40%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Your CSS rules for mobile devices in landscape mode */
+    #pfps {
+        display: none;
+    }
 }
